@@ -19,15 +19,15 @@
     font-size:xxx-large
 }
 
-.link {
+.link a {
     text-align: center;
     background: rgb(241, 166, 131);
-    padding: 5px;
+    padding: 5px 25px;
     color: rgb(255, 255, 255);
     border-radius: 10px;
-   border-color: black;
+    border-color: black;
     font-size: x-large;
-
+    margin-left: 45%;
 }
 
 .subtitle {
