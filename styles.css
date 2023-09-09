@@ -1,0 +1,72 @@
+.inputs {
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+
+.title {
+    background: rgb(228, 87, 22);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xxx-large
+}
+
+.link {
+    text-align: center;
+    background: rgb(241, 166, 131);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+   border-color: black;
+    font-size: x-large;
+
+}
+
+.subtitle {
+    background: rgb(228, 87, 22);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+
+}
+
+.back {
+    background-image: url(backtennis.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-right: 200px;
+    background-attachment: fixed;
+        
+}
+
+.option {
+    background: rgb(228, 87, 22);
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+.space {
+    padding:20px;
+    text-align: center;
+}
