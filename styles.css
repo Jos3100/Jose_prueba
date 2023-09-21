@@ -100,3 +100,70 @@
     font-size: x-large;
 }
 
+.header2 {
+    background-color: rgb(34, 109, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+
+}
+
+.header2 .logo img{
+    height: 200px;
+    width: auto;
+    padding-left: 40px;
+}
+
+.header2 .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header2 .nav_links{
+    list-style: none;
+}
+
+.header2 .nav_links li{
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+.header2 .nav_links li:hover{
+    transform: scale(1.2);
+}
+
+.header2 .nav_links a{
+    font-size: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    text-decoration: none;
+}
+
+.header2 .nav_links li a:hover{
+    color: chocolate;
+}
+
+.btn{
+    padding-right: 40px;
+}
+
+.header2 .btn button{
+    color: chocolate;
+    padding: 9px 25px;
+    background: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+
+}
+
+.header2 .btn button:hover{
+    background-color: chocolate;
+    color: white;
+    transform: scale(1.2);
+}
