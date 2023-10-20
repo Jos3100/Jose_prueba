@@ -191,7 +191,7 @@
 
 p {
     font-size: 25px;
-    color:black;
+    color:rgb(255, 255, 255);
     padding: 0 100px;
 }
 
@@ -208,6 +208,7 @@ p {
 
     padding: 1px;
     background-color: #90E0EF;
+    height: 100vh;
 }
 
 .box-container{
@@ -218,7 +219,7 @@ p {
 }
 
 .box-container .box{
-    height: 20rem;
+    height: 23rem;
     width: 17rem;
     background: #023E8a; 
     border-radius: 1rem;
