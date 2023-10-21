@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi casa</title>
+    <link rel="stylesheet" href="houseStyles.css">
+
+
+</head>
+
+<body>
+    <div class="wall">
+        <button onclick="abrir()">Abrir</button>
+        <button onclick="cerrar()">cerrar</button>
+        <div class="door">
+            <div id="door" class="door-open"><div class="shape"></div></div>
+            
+        </div>
+        <div class="window"></div>
+    </div>
+<script>
+    const door = document.getElementById("door");
+
+    function abrir() {
+        door.classList.add("open")
+
+    }
+
+    function cerrar(){
+        door.classList.remove("open")
+
+    }
+</script>
+</body>
+
+</html>
