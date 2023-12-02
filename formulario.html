@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <!--Articulos(formulario)-->
+  <section class="articulos justify-content-start" id="formulario">
+    <h2 class="seccion-titulo texto-blanco">Regístrate</h2>
+
+    <div class="containerForm">
+      <div class="title">Ingresa tu información</div>
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="user-details">Nombre completo</span>
+            <input type="text" placeholder="Ingresa tu nombre" required>
+          </div>
+
+
+          <div class="input-box">
+            <span class="user-details">Username</span>
+            <input type="text" placeholder="Ingresa tu username" required>
+          </div>
+
+          <div class="input-box">
+            <span class="user-details">Email</span>
+            <input type="text" placeholder="Ingresa tu Email" required>
+          </div>
+
+          <div class="input-box">
+            <span class="user-details">Teléfono</span>
+            <input type="text" placeholder="Número de teléfono" required>
+          </div>
+
+          <div class="input-box">
+            <span class="user-details">Número de documento</span>
+            <input type="text" placeholder="Número de documento" required>
+            <option value=""></option>
+          </div>
+
+          <div class="input-box">
+            <span class="user-details">Selecciona tu documento</span>
+            <select name="doc" id="doc" input type="text" required>
+              <option value="cedula">Cédula</option>
+              <option value="tarjeta_identidad">Tarjeta de identidad</option>
+              <option value="pasaporte">Pasaporte</option>
+              <option value="cedula_extranjeria">Cédula de extranjería</option>
+              <option value="otro">Otro</option>
+
+          </div>
+          <!-- start doc -->
+            <label for="doc" class="">Selecciona  tipo de documento</label>
+            <select name="doc" id="doc" class="inputs">
+          </div>
+          </select>
+        </div>
+        <!-- finish doc -->
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <input type="radio" name="gender" id="dot-3">
+          <span class="gender-title">Género</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="gender">Hombre</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="gender">Mujer</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="gender">No especificar</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Registrarme">
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
