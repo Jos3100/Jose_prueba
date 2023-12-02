@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .button{
+            color:#af6538;
+            padding:15px;
+             width: 65px;
+            height: 65px;
+            background:#f7cc99;
+            text-align:center;
+            border-radius:50px;
+            font-size:xx-large;
+            border-color:#fff;   
+            transition-duration:0.3s;
+            cursor:pointer;
+          }
+          .button:hover{
+            background-color:#fff;
+            color:#af6538;
+            border-color:#af6538;
+            
+          }
+          
+          .button2{
+            color:#af6538;
+              padding:15px;
+            background:#f7cc99;
+            text-align:center;
+            border-radius:100px;
+            font-size:large;
+            border-color:#fff;   
+            transition-duration:0.3s;
+            cursor:pointer;
+          }
+            
+          .button2:hover{
+             background-color:#fff;
+            color:#af6538;
+            border-color:#af6538;
+          }
+          .body{
+            background-color:#af6538;
+              font-size:large;
+                color:#fff;
+              color:#fff;
+            padding:15px;
+            text-align:center;
+            border-radius:100px;
+            font-size:xx-large;
+            border-color:#fff; 
+            
+          }
+          
+          .input{
+           height:30px;
+             width:80px;
+            font-size:large;
+            border-radius:5px;
+              border-color:#f7cc99
+          }
+          
+          .cuadro{
+           background:#f7cc99;
+           color: #af6538;
+           border-radius: 5px;
+           text_align: center;
+          }
+          
+    </style>
+</head>
+<body class=body>
+    <p class="cuadro">Calcula</p> 
+<p>Número 1: <input id="n1" type="number"class="input"></p>
+<p>Número 2: <input id="n2" type="number"class="input"></p>
+<p>Resultado: <input type="number" id="result"class="input"></p>
+<button onclick="calcular(1)" class=button>+</button>
+<button onclick="calcular(2)"class=button>-</button>
+<button onclick="calcular(3)"class=button>X</button>
+<button onclick="calcular(4)"class=button>÷</button>
+<button onclick="limpiar()"class=button2>Limpiar</button>
+<script>
+    function calcular(tipo){
+        var n1 = document.getElementById("n1").value
+        if (!n1) return alert ("Ingresa el número 1")
+        var n2 = document.getElementById("n2").value
+        if (!n2) return alert ("Ingresa el número 2")
+        n1=parseFloat(n1)
+          n2=parseFloat(n2)
+          var resultado;
+          if(tipo==1)resultado = n1 + n2;
+          if(tipo==2)resultado = n1 - n2;
+          if(tipo==3)resultado = n1 * n2;
+          if(tipo==4)resultado = n1 / n2;
+          document.getElementById("result").value=resultado;
+        }
+        
+        function limpiar (){
+          document.getElementById("n1").value="";
+          document.getElementById("n2").value="";
+          document.getElementById("result").value="";
+          
+        }
+</script>
+ </body>
+</html>
